@@ -1,0 +1,15 @@
+Quitar de la barra lateral lo que dice DETECTOR PUPILA & IRIS, ocpa espacio innecesario 
+Quitar de la barra lateral los resultados, ya que estos se muestran en el menu
+Quitar de la barra latera lo que dice Dataset: x muestras
+Al importar video siempre va a mostrar el panel de configuracion inicial del video, que no lo esta mostrando en algunas situaciones
+El panel de configuracion del video (el que sale al importar el video) sera diferente: sera un menu en varios pasos
+	1. seleccionar tiempos de iluminacion (predeterminado(poner los tiempos manualmente), automatico(con la identificacion de iluminacion), manual())
+	2. si puso manual caga el video frame a frame (todos los frames con una barra de desplazamiento inferior e inferior a esta los botones:inicio flash, fin flash, aceptar, cancelar), esto determinara los tiempos del flash
+	3. Reduccion de frames. en esta saldra por seccion o tiempos la cantidad de frames a analizar (pre iluminacion iluminacion posiluminacion)
+	4. Recortar video
+	5. Aceptar e importar
+
+(Revisa que para los calculos de las velocidades y tiempos y tal se tenga en cuenta la reduccion de frames que se hizo)
+
+En el ajuste manual pon un boton para seleccionar color de y ppcicion de la regla, que al tocar en la imagen se busque a partir de ese color (con un rango de colores en torno a ese y esa pocicion) la regla y los dos puntos
+El boton de ocultar dibujos o Cntr+H no funciona
